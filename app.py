@@ -3,9 +3,9 @@ import os
 import streamlit as st
 from dotenv import load_dotenv
 from openai import OpenAI
-from utils.ats_analysis import ATSAnalyzer
 
 from utils.analysis import calculate_similarity, find_missing_keywords
+from utils.ats_analysis import ATSAnalyzer
 from utils.file_loader import smart_parser
 from utils.styles import add_custom_css
 
